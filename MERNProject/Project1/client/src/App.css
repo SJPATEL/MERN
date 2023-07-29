@@ -1,0 +1,56 @@
+/* ---------------------- Navbar.js -----------------  */
+.imgLogo{
+  height: 50px;
+  width: 50px;
+  border-radius: 50px;
+  margin: 0 5px;
+  
+}
+/* ---------------------- Home.js -----------------  */
+body{
+  overflow: hidden;
+}
+.divHome{
+  position: relative;
+}
+.imgHome{
+  height: 89vh;
+  width: 100%;
+
+}
+.div2Home{
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%,-50%);
+}
+
+/* -------------------------About.js----------------- */
+.imgAbout{
+  height: 200px;
+  width: 200px;
+  object-fit: contain;
+}
+
+/* -------------------------Errorpage.js----------------- */
+.container2{
+  position: relative;
+  height: 100vh;
+}
+.divError{
+  position: relative;
+  position: absolute;
+  top: 20%;
+  left: 30%;
+
+}
+
+.divError h1{
+  font-size: 200px;
+  opacity: 0.2;
+}
+.div2Error {
+  position: absolute;
+  top: 50%;
+  left: 10%;
+}
